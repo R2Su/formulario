@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/07_Validaciones/styleform.css">
+
+</head>
+
+<body>
+    <form action="" id="form" class="formulario">
+        <div class="formulario__grupo">
+            <h1 class="formulario__titulo">NoS AyudaS</h1>
+        </div>
+        <div class="formulario__grupo">
+            <input type="text" name="name" id="name" class="formulario__input" placeholder="Nombre completo">
+            <label for="" class="formulario__label">Nombre y Apellidos</label></div>
+        <div class="formulario__grupo">
+            <input type="text" name="mail" id="mail" class="formulario__input" placeholder="email@example.com">
+            <label for=" " class="formulario__label ">Mail</label></div>
+        <div class="formulario__grupo">
+            <input type="text " name="tel " id="tel " class="formulario__input" placeholder="999999999">
+            <label for=" " class="formulario__label ">Teléfono</label></div>
+        <div class="formulario__grupo">
+            <input type="text " name="mensaje " id="mensaje " class="formulario__input" placeholder="Cuentanos">
+            <label for=" " class="formulario__label ">Mensaje</label></div>
+        <div class="formulario__grupo">
+            <input type="submit" class="formulario__submit">
+            <p class="formulario__mensaje-exito" id="formulario__mensaje-exito">El formulario se envió de forma correcta</p>
+        </div>
+        <br>
+        <label for="mayor ">Mayor de edad:</label>
+        <div class="formulario__grupo">
+            <input type="checkbox" onclick="getData()" name="mayor " id="mayor ">
+        </div>
+        <br>
+        <div class="formulario__grupo">
+            <label for="condiciones">Acepto los términos y condiciones </label>
+        </div>
+        <div class="formulario__grupo"></div>
+        <input type="checkbox" onclick="getData()" name="terminos " id="terminos">
+
+        </div>
+
+    </form>
+
+    <script src="validacion.js "></script>
+
+
+</body>
+
+</html>
